@@ -1,0 +1,20 @@
+# WorkBuddy local cache (keep memory for cross-device context)
+.workbuddy/*
+!.workbuddy/memory/
+.workbuddy/memory/YYYY-MM-DD.md
+
+# Generated images (can be regenerated)
+*.png
+*.jpg
+*.jpeg
+!封面*.png
+
+# Temp / OS files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# No need to track individual backups
+backup/
